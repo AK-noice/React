@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    body{
+      font-family: 'Outfit', sans-serif;
+      background-color: #D5E1EF;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .QR{
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #container{
+      padding: 16px;
+      width: 320px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      margin: 0 auto;
+    }
+    .text{
+      text-align: center;
+      padding: 16px;
+    }
+    h1{
+      font-size: 22px;
+      font-weight: 120%;
+      color: #1F314F;
+      margin-bottom: 16px;
+      margin-top: 8px;
+    }
+    p{
+      font-size: 15px;
+      color: #4B6D8C;
+      font-style: bold;
+      font-weight: 150%;
+      color: #68788D;
+    }
+
+    .attribution { font-family: 'Outfit', sans-serif; display:block; position: fixed; bottom: 0; font-size: 0.6875rem; text-align: center; margin: 0px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 1080px) {
+      #container{
+        margin: auto;
+      }
+    }
+
+    @media screen and (min-width: 540px) {
+      #container{
+        margin: auto;
+      }
+    }
+
+
+
+  </style>
+</head>
+<body>
+    <div id="container">
+      <img src="./images/image-qr-code.png" class="QR" alt="QR">
+      <div class="text">      
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+</body>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">HungryAK</a>.
+  </footer>
+</body>
+</html>
